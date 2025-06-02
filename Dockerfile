@@ -171,7 +171,7 @@ RUN crawl4ai-doctor
 COPY deploy/docker/* ${APP_HOME}/
 
 # Copy example code
-COPY docs/examples/* ${APP_HOME}/
+COPY docs/examples/* ${APP_HOME}/examples
 
 # copy the playground + any future static assets
 COPY deploy/docker/static ${APP_HOME}/static
